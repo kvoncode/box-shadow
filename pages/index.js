@@ -65,7 +65,7 @@ const Home = () => (
         text-align: left;
         text-decoration: none;
         color: #434343;
-        border: 1px solid #9b9b9b;
+        box-shadow: 0 1px 3px #9b9b9b, 0 1px 2px #9b9b9b;
       }
       .card:hover {
         border-color: #067df7;
@@ -83,6 +83,6 @@ const Home = () => (
       }
     `}</style>
   </div>
-)
+);
 
 export default Home
